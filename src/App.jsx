@@ -6,7 +6,7 @@ import Mid from './Components/Mid'
 import Products from './Components/Products'
 import Toggle from './Components/Toggle'
 
-let fet1=fetch('/data.json')
+let fet1=fetch(`${import.meta.env.BASE_URL}data.json`)
 .then(x=>x.json())
 
 
