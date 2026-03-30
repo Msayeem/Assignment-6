@@ -19,7 +19,7 @@ let handleBuy=()=>{
 
     let g3=data.features.map(dat=> <span className='flex gap-2 items-center '><FcCheckmark></FcCheckmark><span className='text-[16px] font-medium'>{dat}</span></span>)
     return (
-        <div className='p-4 shadow-purple-300 shadow-lg hover:shadow-purple-400 hover:scale-102 transition-[0.40s]'>
+        <div className='p-4 shadow-purple-300 rounded-2xl shadow-lg hover:shadow-purple-400 hover:scale-102 transition-[0.40s]'>
             <div className='space-y-3'>
                     <img src={data.icon} alt="" />
                     <h2 className='text-2xl font-bold'>{data.name}</h2>
