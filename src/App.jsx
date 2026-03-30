@@ -5,6 +5,7 @@ import Banner from './Components/Banner'
 import Mid from './Components/Mid'
 import Products from './Components/Products'
 import Toggle from './Components/Toggle'
+import Mid2 from './Components/Mid2'
 
 let fet1=fetch(`${import.meta.env.BASE_URL}data.json`)
 .then(x=>x.json())
@@ -23,6 +24,7 @@ function App() {
 
       <main>
         <Toggle fet1={fet1}></Toggle>
+        <Mid2></Mid2>
       </main>
     </>
   )

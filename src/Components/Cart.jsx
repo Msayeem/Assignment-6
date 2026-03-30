@@ -18,7 +18,7 @@ const Cart = ({ product, setProduct }) => {
   };
 
   return (
-    <div className='lg:w-[60%] w-[90%] mx-auto py-10 space-y-8'>
+    <div className='lg:w-[60%] w-[90%] mx-auto py-20 space-y-8 mb-10 border-b-2 border-purple-600'>
       <h1 className='text-2xl font-bold'>Your Cart</h1>
       
       {product.length === 0 ? (
