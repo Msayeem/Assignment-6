@@ -8,7 +8,7 @@ const Banner = () => {
         <div className='lg:w-[90%] w-[95%] py-20 mx-auto flex justify-between items-center gap-15 md:flex-row flex-col'>
             <div className='space-y-4'>
                 <p className='bg-[#E1E7FF] w-[294px] py-[8px] px-[16px] rounded-3xl flex items-center gap-1  text-purple-700 font-medium text-[16px]'><img className='' src={i1} alt="" /> New: AI-Powered Tools Available</p>
-            <h1 className='font-extrabold text-7xl'>Supercharge YourDigital Workflow</h1>
+            <h1 className='font-extrabold text-7xl'>Supercharge Your Digital Workflow</h1>
             <p className='w-[550px] text-[18px] text-[#627382]'>Access premium AI tools, design assets, templates, and productivity
 software—all in one place. Start creating faster today.
 

@@ -4,6 +4,7 @@ import Nav from './Components/Nav'
 import Banner from './Components/Banner'
 import Mid from './Components/Mid'
 import Products from './Components/Products'
+import Toggle from './Components/Toggle'
 
 let fet1=fetch('/data.json')
 .then(x=>x.json())
@@ -21,7 +22,7 @@ function App() {
       </header>
 
       <main>
-        <Products fet1={fet1}></Products>
+        <Toggle fet1={fet1}></Toggle>
       </main>
     </>
   )
