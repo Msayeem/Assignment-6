@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import Cart from './Cart';
 import Products from './Products';
+import Nav from './Nav';
 
-const Toggle = ({fet1}) => {
+const Toggle = ({fet1, product, setProduct}) => {
 
 let [toggle, setToggle]=useState('product');
-let [product, setProduct]=useState([]);
+
 
     return (
         <div>
-            <h2 className='text-center font-extrabold text-5xl'>Premium Digital Tools</h2>
-            <p className='text-center text-[#627382] text-[18px] w-[65%] lg:w-[50%] mb-8 mt-5 mx-auto'>Choose from our curated collection of premium digital products designedto boost your productivity and creativity.</p>
+            <h2 className='text-center font-extrabold md:text-5xl text-3xl'>Premium Digital Tools</h2>
+            <p className='text-center text-[#627382] text-[18px] w-[80%] md:w-[50%] mb-8 mt-5 mx-auto'>Choose from our curated collection of premium digital products designedto boost your productivity and creativity.</p>
             
             {/* name of each tab group should be unique */}
 <div className="tabs tabs-box justify-center gap-4">

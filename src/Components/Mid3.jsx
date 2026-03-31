@@ -7,7 +7,7 @@ const Mid3 = () => {
         <div>
 
 <div className='space-y-4'>
-    <h1 className='text-5xl font-extrabold text-center'>Simple, Transparent Pricing</h1>
+    <h1 className='md:text-5xl text-3xl font-extrabold text-center'>Simple, Transparent Pricing</h1>
 <p className='text-[18px] text-[#627382] text-center'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 </div>
 

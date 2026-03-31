@@ -11,7 +11,7 @@ let g1=use(fet1);
             <div className='py-10 grid lg:grid-cols-3 gap-y-10 md:grid-cols-2 grid-cols-1 gap-x-8 lg:w-[80%] w-[90%] mx-auto'>
             {g1.map(data=>
 
-                <AllProducts data={data} product={product} setProduct={setProduct}></AllProducts>
+                <AllProducts key={data.id} data={data} product={product} setProduct={setProduct}></AllProducts>
             )}
         </div>
 
