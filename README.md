@@ -22,4 +22,4 @@ Key Features:
 
 2. Streamlined Booking Workflow: A functional management interface that tracks service appointments and user interactions in one centralized dashboard.
 
-3. Adaptive Design: A fully responsive layout that ensures a seamless, high-perform
+3. Adaptive Design: A fully responsive layout that ensures a seamless, high-performance experience across all devices.
